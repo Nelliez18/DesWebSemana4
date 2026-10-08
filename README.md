@@ -1,4 +1,4 @@
-# DesWebSemana4
+# Entregável de Desenvolvimento Web –  Introdução ao JavaScript – Semana 03
 # Sistema de Manipulacao de Arrays, DOM e Eventos
 
 Este projeto demonstra a aplicacao pratica de recursos fundamentais do JavaScript moderno (ES6+) voltados para a movimentacao de estruturas de dados, controle de elementos HTML via Document Object Model (DOM) e gerenciamento otimizado de eventos no navegador.
