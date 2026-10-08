@@ -22,7 +22,7 @@ O Event Delegation (Delegacao de Eventos) foi implementado atrelando um unico ou
 Essa tecnica traz dois grandes beneficios:
 1. Performance: Economiza memoria do sistema, pois o navegador gerencia apenas um vinculo de evento na arvore do DOM, independentemente se a lista possui poucos ou milhares de itens.
 2. Elementos Dinamicos: Permite que novos itens criados via JavaScript (como os inseridos atraves do formulario de tarefas) herdem o comportamento de clique automaticamente, ja que o evento e disparado pelo elemento pai e capturado atraves da propriedade e.target.
-# Saida:
+# Saida(Navegador):
 ```text
 --- BLOCO 1: ARRAYS E METODOS ---
 Ola, Ana!
@@ -32,31 +32,19 @@ Nomes em maiusculas: [ 'ANA', 'BRUNO', 'CARLOS' ]
 Precos acima de 20: [ 25, 40, 60 ]
 Soma de todos os precos: 140
 Apenas nomes dos produtos: [ 'Caderno', 'Caneta', 'Estojo', 'Mochila' ]
-Produtos menores que 50: [
-  { nome: 'Caderno', preco: 15 },
-  { nome: 'Caneta', preco: 3 },
-  { nome: 'Estojo', preco: 20 }
-]
-Soma total dos produtos: R$ 158
-Caderno: R$ 15
-Caneta: R$ 3
-Estojo: R$ 20
-Mochila: R$ 120
+Produtos menores que 50: [ { nome: 'Caderno', preco: 15 }, { nome: 'Caneta', preco: 3 }, { nome: 'Estojo', preco: 20 } ]
+Soma total dos produtos: R\$ 158
+Caderno: R\$ 15
+Caneta: R\$ 3
+Estojo: R\$ 20
+Mochila: R\$ 120
 
 --- BLOCO 2: MANIPULACAO DO DOM ---
-c:\Users\nicol\OneDrive\Documentos\Python Codes\DesenvWeb4\EntregavelSemana4.js:45
-const titulo = document.querySelector("#titulo");
-               ^
+Texto do paragrafo: Primeiro paragrafo de teste.
+Texto do paragrafo: Segundo paragrafo de teste.
+Tem a classe destaque? true
+Quantidade total de itens na lista: 6
 
-ReferenceError: document is not defined
-    at Object.<anonymous> (c:\Users\nicol\OneDrive\Documentos\Python Codes\DesenvWeb4\EntregavelSemana4.js:45:16)
-    at Module._compile (node:internal/modules/cjs/loader:1929:14)
-    at Object..js (node:internal/modules/cjs/loader:2060:10)
-    at Module.load (node:internal/modules/cjs/loader:1651:32)
-    at Module._load (node:internal/modules/cjs/loader:1443:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
-    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
-    at node:internal/main/run_main_module:33:47
-
-Node.js v24.21.0
+--- BLOCO 3: EVENTOS ---
 ```
+
